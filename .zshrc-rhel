@@ -1,0 +1,62 @@
+source /apollo/env/envImprovement/var/zshrc
+
+export BRAZIL_WORKSPACE_DEFAULT_LAYOUT=short
+
+for f in SDETools envImprovement AmazonAwsCli OdinTools; do
+    if [[ -d /apollo/env/$f ]]; then
+        export PATH=$PATH:/apollo/env/$f/bin
+    fi
+done
+
+export AUTO_TITLE_SCREENS="NO"
+
+export PROMPT="
+%{$fg[white]%}(%D %*) <%?> [%~] $program %{$fg[default]%}
+%{$fg[cyan]%}%m %#%{$fg[default]%} "
+
+export RPROMPT=
+
+set-title() {
+    echo -e "\e]0;$*\007"
+}
+
+ssh() {
+    set-title $*;
+    /usr/bin/ssh -2 $*;
+    set-title $HOST;
+}
+
+alias e=emacs
+alias v=vim
+alias bb=brazil-build
+
+alias bba='brazil-build apollo-pkg'
+alias bbr='brazil-build release'
+alias bre='brazil-runtime-exec'
+alias brc='brazil-recursive-cmd'
+alias bws='brazil ws'
+alias bwsuse='bws use --gitMode -p'
+alias bwscreate='bws create -n'
+alias brc=brazil-recursive-cmd
+alias bbr='brc brazil-build'
+alias bball='brc --allPackages'
+alias bbb='brc --allPackages brazil-build'
+alias bbra='bbr apollo-pkg'
+
+alias ll="ls -lh"
+alias bp="brazil-path"
+alias idea="/apollo/env/Intellij-15/bin/launch-idea 2>/dev/null &"
+alias eh="expand-hostclass"
+alias rebase="git rebase HEAD~2 -i"
+alias sql_rws="/apollo/env/envImprovement/bin/sqlplus yanson_admin@trws1na"
+  
+#Function
+function cd() {
+  builtin cd "$@"
+  clear
+  ll  
+}
+  
+#Export
+export GIT_SSH=/usr/bin/ssh
+export BRAZIL_WORKSPACE_GITMODE=1
