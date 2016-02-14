@@ -86,6 +86,9 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.0/libexec
 export HIVE_HOME=/usr/local/Cellar/hive/1.1.1/libexec
+export PATH="/apollo/env/SDETools/bin:$PATH"
+
+alias msshfs='sudo sshfs yanson@dev-dsk-yanson-2b-i-d357e9de.us-west-2.amazon.com:/workplace/ /workplace -oauto_cache,reconnect,defer_permissions,negative_vncache,allow_other,follow_symlinks,volname=ACC' 
 
 alias yanson='ssh yanson@yanson.aka.amazon.com'
 alias ll='ls -lh'
