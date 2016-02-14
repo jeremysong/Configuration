@@ -88,7 +88,8 @@ export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.0/libexec
 export HIVE_HOME=/usr/local/Cellar/hive/1.1.1/libexec
 export PATH="/apollo/env/SDETools/bin:$PATH"
 
-alias msshfs='sudo sshfs yanson@dev-dsk-yanson-2b-i-d357e9de.us-west-2.amazon.com:/workplace/ /workplace -oauto_cache,reconnect,defer_permissions,negative_vncache,allow_other,follow_symlinks,volname=ACC' 
+alias mremote='sudo sshfs yanson@dev-dsk-yanson-2b-i-d357e9de.us-west-2.amazon.com:/workplace/ /workplace -oauto_cache,reconnect,defer_permissions,negative_vncache,allow_other,follow_symlinks,uid=1986845770,gid=1896053708,volname=ACC'
+alias uremote='sudo umount /workplace'
 
 alias yanson='ssh yanson@yanson.aka.amazon.com'
 alias ll='ls -lh'
