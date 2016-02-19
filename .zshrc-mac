@@ -49,7 +49,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx vi-mode)
+plugins=(git osx)
 
 # User configuration
 
@@ -88,10 +88,30 @@ export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.0/libexec
 export HIVE_HOME=/usr/local/Cellar/hive/1.1.1/libexec
 export PATH="/apollo/env/SDETools/bin:$PATH"
 
-alias mremote='sudo sshfs yanson@dev-dsk-yanson-2b-i-d357e9de.us-west-2.amazon.com:/workplace/ /workplace -oauto_cache,reconnect,defer_permissions,negative_vncache,allow_other,follow_symlinks,uid=1986845770,gid=1896053708,volname=ACC'
-alias uremote='sudo umount /workplace'
+alias async='ninja-dev-sync'
+
+alias bb='brazil-build'
+alias bba='brazil-build apollo-pkg'
+alias bbr='brazil-build release'
+alias bre='brazil-runtime-exec'
+alias brc='brazil-recursive-cmd'
+alias bws='brazil ws'
+alias bwsuse='bws use --gitMode -p'
+alias bwscreate='bws create -n'
+alias brc=brazil-recursive-cmd
+alias bbr='brc brazil-build'
+alias bball='brc --allPackages'
+alias bbb='brc --allPackages brazil-build'
+alias bbra='bbr apollo-pkg'
 
 alias yanson='ssh yanson@yanson.aka.amazon.com'
 alias ll='ls -lh'
 
-yanson
+#Function
+function cd() {
+  builtin cd "$@"
+  clear
+  ll  
+}
+
+#yanson
