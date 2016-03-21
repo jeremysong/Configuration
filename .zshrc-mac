@@ -84,9 +84,9 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
-export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.0/libexec
-export HIVE_HOME=/usr/local/Cellar/hive/1.1.1/libexec
+export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.1/libexec
 export PATH="/apollo/env/SDETools/bin:$PATH"
+export HIVE_HOME=/usr/local/Cellar/hive/1.2.1/libexec
 
 alias async='ninja-dev-sync'
 
