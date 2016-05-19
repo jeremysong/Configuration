@@ -104,7 +104,7 @@ alias bball='brc --allPackages'
 alias bbb='brc --allPackages brazil-build'
 alias bbra='bbr apollo-pkg'
 
-alias yanson='ssh yanson@yanson.aka.amazon.com'
+alias yanson='ssh yanson@yanson.aka.crop.amazon.com'
 alias ll='ls -lh'
 
 #Function
@@ -114,4 +114,5 @@ function cd() {
   ll  
 }
 
-#yanson
+#ruby
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
