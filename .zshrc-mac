@@ -104,7 +104,7 @@ alias bball='brc --allPackages'
 alias bbb='brc --allPackages brazil-build'
 alias bbra='bbr apollo-pkg'
 
-alias yanson='ssh yanson@yanson.aka.crop.amazon.com'
+alias yanson='ssh yanson@yanson.aka.corp.amazon.com'
 alias ll='ls -lh'
 
 #Function
