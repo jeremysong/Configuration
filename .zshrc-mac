@@ -122,3 +122,6 @@ function cd() {
 
 #ruby
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+#funny stuff
+fortune | cowsay | lolcat
