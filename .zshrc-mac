@@ -92,7 +92,7 @@ export PATH=$PATH:/tmp/GK/bin
 # Configure Python Virtualenv
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
-workon python35
+workon python34
 
 alias async='ninja-dev-sync'
 
