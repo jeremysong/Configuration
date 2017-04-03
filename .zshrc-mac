@@ -126,8 +126,7 @@ function cd() {
 
 function midway() {
   if mwinit; then
-    ssh-add -D ~/.ssh/*_rsa
-    ssh-add ~/.ssh/*_rsa
+    ssh-add
   else
     echo "Failed to authenticate."
     exit 1
