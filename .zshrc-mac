@@ -116,6 +116,9 @@ alias bbra='bbr apollo-pkg'
 # PyCharm with Brazil
 alias brazil-pycharm="brazil-python-env testrun open '/Applications/PyCharm CE.app'"
 
+# Midway
+alias midway=mwinit
+
 alias yanson='ssh yanson@yanson.aka.corp.amazon.com'
 alias ll='ls -lh'
 
@@ -124,15 +127,6 @@ function cd() {
   builtin cd "$@"
   clear
   ll  
-}
-
-function midway() {
-  if mwinit; then
-    ssh-add
-  else
-    echo "Failed to authenticate."
-    exit 1
-  fi
 }
 
 #ruby
