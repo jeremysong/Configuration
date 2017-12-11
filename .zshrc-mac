@@ -95,7 +95,7 @@ export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export WORKON_HOME=~/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7
 source /Users/$USER/Library/Python/2.7/bin/virtualenvwrapper.sh
-workon python3
+workon python36
 
 alias async='ninja-dev-sync'
 
