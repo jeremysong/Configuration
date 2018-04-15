@@ -88,7 +88,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.3/libexec
 export PATH="/apollo/env/SDETools/bin:$PATH"
 export PATH="$BRAZIL_CLI_BIN:$PATH"
-export PATH="/User/yanson/.toolbox/bin:$PATH"
+export PATH="/Users/$USER/.toolbox/bin:$PATH"
 export HIVE_HOME=/usr/local/Cellar/hive/2.1.0/libexec
 
 # Configure Python Virtualenv
@@ -116,9 +116,6 @@ alias bbra='bbr apollo-pkg'
 
 # PyCharm with Brazil
 alias brazil-pycharm="brazil-python-env testrun open '/Applications/PyCharm CE.app'"
-
-# Midway
-alias midway=mwinit
 
 alias yanson='ssh yanson@yanson.aka.corp.amazon.com'
 alias ll='ls -lh'
