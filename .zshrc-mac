@@ -88,6 +88,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.3/libexec
 export PATH="/apollo/env/SDETools/bin:$PATH"
 export PATH="$BRAZIL_CLI_BIN:$PATH"
+export PATH="/User/yanson/.toolbox/bin:$PATH"
 export HIVE_HOME=/usr/local/Cellar/hive/2.1.0/libexec
 
 # Configure Python Virtualenv
