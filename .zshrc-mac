@@ -98,6 +98,7 @@ workon python3
 
 alias async='ninja-dev-sync'
 
+alias brazil-build='brazil-build-rainbow'
 alias bb='brazil-build'
 alias bba='brazil-build apollo-pkg'
 alias bbr='brazil-build release'
