@@ -89,16 +89,14 @@ export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.3/libexec
 export PATH="/Users/$USER/.toolbox/bin:$PATH"
 export HIVE_HOME=/usr/local/Cellar/hive/2.1.0/libexec
 
-# Configure Python Virtualenv
-export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
-export WORKON_HOME=~/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7
-source /Users/$USER/Library/Python/2.7/bin/virtualenvwrapper.sh
-workon python3
+# Configure Python pyenv and virtualenv
+export PYENV_VERSION=3.7.2
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 alias async='ninja-dev-sync'
 
-alias brazil-build='brazil-build-rainbow'
+# alias brazil-build='brazil-build-rainbow'
 alias bb='brazil-build'
 alias bba='brazil-build apollo-pkg'
 alias bbr='brazil-build release'
