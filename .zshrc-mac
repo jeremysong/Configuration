@@ -90,7 +90,6 @@ export PATH="/Users/$USER/.toolbox/bin:$PATH"
 export HIVE_HOME=/usr/local/Cellar/hive/2.1.0/libexec
 
 # Configure Python pyenv and virtualenv
-export PYENV_VERSION=3.7.2
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
