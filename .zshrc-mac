@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/$USER/.oh-my-zsh
+export TERM="xterm-256color"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -57,7 +58,6 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/$U
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-source /Users/$USER/Configuration/create-gk-aliases.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -85,9 +85,7 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
-export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.3/libexec
 export PATH="/Users/$USER/.toolbox/bin:$PATH"
-export HIVE_HOME=/usr/local/Cellar/hive/2.1.0/libexec
 
 # Configure Python pyenv and virtualenv
 eval "$(pyenv init -)"
