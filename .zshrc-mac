@@ -86,6 +86,7 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/Users/$USER/.toolbox/bin:$PATH"
+export PATH="/Users/$USER/.cargo/bin:$PATH"
 
 # Configure Python pyenv and virtualenv
 eval "$(pyenv init -)"
