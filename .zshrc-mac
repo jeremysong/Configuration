@@ -87,6 +87,7 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/Users/$USER/.toolbox/bin:$PATH"
 export PATH="/Users/$USER/.cargo/bin:$PATH"
+export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
 
 # Configure Python pyenv and virtualenv
 eval "$(pyenv init -)"
@@ -110,7 +111,7 @@ alias bbb='brc --allPackages brazil-build'
 alias bbra='bbr apollo-pkg'
 
 # PyCharm with Brazil
-alias brazil-pycharm="brazil-python-env testrun open '/Applications/PyCharm CE.app'"
+alias brazil-pycharm="brazil-python-env testrun open '/Applications/PyCharm CE'"
 
 alias yanson='ssh yanson@yanson.aka.corp.amazon.com'
 alias ll='ls -lh'
