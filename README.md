@@ -11,7 +11,7 @@
 ## Installation
 
 ### Amazon JDK
-`brew tap homebrew/cask-versions && brew cask install corretto8`
+Download Amazon JDK [here](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
 
 ### Anaconda
 Download Anaconda [here](https://www.anaconda.com/products/individual)
