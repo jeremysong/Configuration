@@ -5,31 +5,18 @@
 * [Homebrew](http://brew.sh/)
 
 ## Configure Zsh and Vim
-* `ln -s /Configuration/.zshrc .zshrc`
-* `ln -s /Configuration/.vimrc .vimrc`
-
+* `ln -s ./Configuration/.zshrc .zshrc`
+* `ln -s ./Configuration/.vimrc .vimrc`
+..
 ## Installation
-### Java
+
+### Amazon JDK
 ```
-brew update
-brew cast install java
+brew tap homebrew/cask-versions && brew cask install corretto8
 ```
 
-### Scala
-`brew instlal scala`
-
-### pip
-`python -m ensurepip --user`
-
-### Python 3.x
-`brew install python3`
-
-### virtualenvwrapper
-`pip install virtualenvwrapper --user`
-
-mkvirtualenv python2 --python=/usr/bin/python2.7`
-
-`mkvirtualenv python3 --python=/usr/local/bin/python3.6`
+### Anaconda
+Download Anaconda [here](https://www.anaconda.com/products/individual)
 
 ### Other
 `brew install fortune cowsay lolcat`
