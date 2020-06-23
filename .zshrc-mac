@@ -87,7 +87,8 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/Users/$USER/.toolbox/bin:$PATH"
 export PATH="/Users/$USER/.cargo/bin:$PATH"
-export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 
 alias async='ninja-dev-sync'
 
