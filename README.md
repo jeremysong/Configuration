@@ -1,7 +1,8 @@
 ## Useful Links for Configuring New Machine
 * [iTerm2](https://www.iterm2.com/)
-* [Powerline Fonts](https://github.com/powerline/fonts)
 * [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [Powerline Theme](https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
+* [Powerline Fonts](https://github.com/powerline/fonts): Cloning the git repo and building it directly should be sufficient. [Reference](https://github.com/powerline/fonts#quick-installation)
 * [Homebrew](http://brew.sh/)
 
 ## Configure Zsh and Vim
