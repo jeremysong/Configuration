@@ -130,7 +130,7 @@ fortune | cowsay | lolcat
 
 #copy Firefox bookmarks
 cp -r $HOME/Library/Application\ Support/Firefox/Profiles/ev7wn1hv.default-esr/bookmarks.html $HOME/Amazon\ WorkDocs\ Drive/My\ Documents/
-cp -r $HOME/Library/ApplicationSupport/Google/Chrome/Profile 1/Bookmarks $HOME/Amazon\ WorkDocs\ Drive/My\ Documents/
+cp -r $HOME/Library/ApplicationSupport/Google/Chrome/Profile\ 1/Bookmarks $HOME/Amazon\ WorkDocs\ Drive/My\ Documents/
 
 # perl
 PATH="/Users/$USER/perl5/bin${PATH:+:${PATH}}"; export PATH;
