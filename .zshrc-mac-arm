@@ -97,7 +97,7 @@ function cd() {
 }
 
 #funny stuff
-#fortune | cowsay | lolcat
+fortune | cowsay | lolcat
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
