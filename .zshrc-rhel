@@ -30,6 +30,8 @@ alias e=emacs
 alias v=vim
 alias bb=brazil-build
 
+alias bbbb='brazil-build build'
+alias bbc='brazil-build clean'
 alias bba='brazil-build apollo-pkg'
 alias bbr='brazil-build release'
 alias bre='brazil-runtime-exec'

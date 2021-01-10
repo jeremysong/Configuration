@@ -95,6 +95,8 @@ alias async='ninja-dev-sync'
 
 # alias brazil-build='brazil-build-rainbow'
 alias bb='brazil-build'
+alias bbbb='brazil-build build'
+alias bbc='brazil-build clean'
 alias bba='brazil-build apollo-pkg'
 alias bbr='brazil-build release'
 alias bre='brazil-runtime-exec'
@@ -107,6 +109,9 @@ alias bbr='brc brazil-build'
 alias bball='brc --allPackages'
 alias bbb='brc --allPackages brazil-build'
 alias bbra='bbr apollo-pkg'
+
+# git
+alias gitm='git commit --amend --no-edit'
 
 # Start containerized cloud-desktop
 alias start-cloud-desktop='cloud-desktop start -p 8888 -u -m ~/workplace:/workspace:cached -m ~/brazil-pkg-cache:/home/yanson/brazil-pkg-cache:cached'
