@@ -89,7 +89,6 @@ export PATH="/Users/$USER/.toolbox/bin:$PATH"
 export PATH="/Users/$USER/.cargo/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
-export PATH="/Library/TeX/Distributions/Programs/texbin:$PATH"
 
 alias async='ninja-dev-sync'
 
@@ -118,7 +117,6 @@ alias start-cloud-desktop='cloud-desktop start -p 8888 -u -m ~/workplace:/worksp
 
 alias yanson='ssh yanson@yanson.aka.corp.amazon.com'
 alias ll='ls -lh'
-alias run-fedora='docker run --net=host --privileged -it jeremysong/fedora:jeremy'
 
 #Function
 function cd() {
@@ -134,8 +132,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 fortune | cowsay | lolcat
 
 #copy Firefox bookmarks 
-(cp -r $HOME/Library/Application\ Support/Firefox/Profiles/ev7wn1hv.default-esr/bookmarks.html $HOME/Amazon\ WorkDocs\ Drive/My\ Documents/ &)
-(cp -r $HOME/Library/ApplicationSupport/Google/Chrome/Profile\ 1/Bookmarks $HOME/Amazon\ WorkDocs\ Drive/My\ Documents/ &)
+# (cp -r $HOME/Library/Application\ Support/Firefox/Profiles/ev7wn1hv.default-esr/bookmarks.html $HOME/Amazon\ WorkDocs\ Drive/My\ Documents/ &)
+# (cp -r $HOME/Library/ApplicationSupport/Google/Chrome/Profile\ 1/Bookmarks $HOME/Amazon\ WorkDocs\ Drive/My\ Documents/ &)
 
 # perl
 PATH="/Users/$USER/perl5/bin${PATH:+:${PATH}}"; export PATH;
