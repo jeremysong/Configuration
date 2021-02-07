@@ -87,7 +87,9 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 alias ll='ls -lh'
-alias run-fedora='docker run --net=host --privileged -it jeremysong/fedora:jeremy'
+
+# Homebrew
+eval $(/opt/homebrew/bin/brew shellenv)
 
 #Function
 function cd() {
