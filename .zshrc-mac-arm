@@ -92,6 +92,9 @@ alias ll='ls -lh'
 # Homebrew
 eval $(/opt/homebrew/bin/brew shellenv)
 
+# ANTLR
+alias grun="java -cp $HOME/Projects/learning-antlr/antlr-4.9.2-complete.jar org.antlr.v4.runtime.misc.TestRig"
+
 #Function
 function cd() {
   builtin cd "$@"
