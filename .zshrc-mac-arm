@@ -104,6 +104,16 @@ function cd() {
   ll  
 }
 
+# Turn on lights
+function on() {
+  node $HOME/Projects/jeremy-hue/app.js
+}
+
+# Turn off lights
+function off() {
+  node $HOME/Projects/jeremy-hue/app.js off
+}
+
 #funny stuff
 fortune | cowsay | lolcat
 
