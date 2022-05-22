@@ -101,7 +101,7 @@ alias grun="java org.antlr.v4.gui.TestRig"
 export PATH=$PATH:/Library/TeX/texbin
 
 # .NET Core SDK tools
-export PATH="$PATH:/Users/jeremysong/.dotnet/tools"
+export PATH=$PATH:$HOME/.dotnet/tools
 alias dotnet='dotnetx64'
 
 #Function
