@@ -104,6 +104,9 @@ export PATH=$PATH:/Library/TeX/texbin
 export PATH=$PATH:$HOME/.dotnet/tools
 alias dotnet='dotnetx64'
 
+# P model checker
+alias pmc='coyote test'
+
 #Function
 function cd() {
   builtin cd "$@"
