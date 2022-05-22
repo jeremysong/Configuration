@@ -100,6 +100,10 @@ alias grun="java org.antlr.v4.gui.TestRig"
 # LaTeX
 export PATH=$PATH:/Library/TeX/texbin
 
+# .NET Core SDK tools
+export PATH="$PATH:/Users/jeremysong/.dotnet/tools"
+alias dotnet='dotnetx64'
+
 #Function
 function cd() {
   builtin cd "$@"
