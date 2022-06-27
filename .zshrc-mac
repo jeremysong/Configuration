@@ -127,7 +127,6 @@ alias start-cloud-desktop='cloud-desktop start -p 8888 -u -m ~/workplace:/worksp
 
 alias yanson='ssh yanson@yanson.aka.corp.amazon.com'
 alias ll='ls -lh'
-alias fixdns='sudo rm -rvf /etc/resolver/ && sudo killall -HUP mDNSResponder'
 
 #Function
 function cd() {
