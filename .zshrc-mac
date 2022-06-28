@@ -141,10 +141,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 #funny stuff
 fortune | cowsay | lolcat
 
-#copy Firefox bookmarks 
-# (cp -r $HOME/Library/Application\ Support/Firefox/Profiles/ev7wn1hv.default-esr/bookmarks.html $HOME/Amazon\ WorkDocs\ Drive/My\ Documents/ &)
-# (cp -r $HOME/Library/ApplicationSupport/Google/Chrome/Profile\ 1/Bookmarks $HOME/Amazon\ WorkDocs\ Drive/My\ Documents/ &)
-
 # perl
 PATH="/Users/$USER/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/Users/$USER/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
