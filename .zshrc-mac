@@ -122,6 +122,8 @@ alias bbra='bbr apollo-pkg'
 # git
 alias gitm='git commit --amend --no-edit'
 
+alias python='python3'
+
 # Start containerized cloud-desktop
 alias start-cloud-desktop='cloud-desktop start -p 8888 -u -m ~/workplace:/workspace:cached -m ~/brazil-pkg-cache:/home/yanson/brazil-pkg-cache:cached'
 
