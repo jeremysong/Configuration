@@ -100,9 +100,8 @@ alias grun="java org.antlr.v4.gui.TestRig"
 # LaTeX
 export PATH=$PATH:/Library/TeX/texbin
 
-# .NET Core SDK tools
-export PATH=$PATH:$HOME/.dotnet/tools
-alias dotnet='dotnetx64'
+# .NET
+export PATH=$PATH:/usr/local/share/dotnet
 
 # P model checker
 alias pmc='coyote test'
