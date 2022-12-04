@@ -103,9 +103,6 @@ export PATH=$PATH:/Library/TeX/texbin
 # .NET
 export PATH=$PATH:/usr/local/share/dotnet
 
-# P model checker
-alias pmc='coyote test'
-
 #Function
 function cd() {
   builtin cd "$@"
