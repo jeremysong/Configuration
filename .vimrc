@@ -6,6 +6,7 @@ colorscheme elflord
 " Misc {{{
 set ttyfast                     " faster redraw
 set backspace=indent,eol,start
+set spell spelllang=en_us
 " }}}
 " Spaces & Tabs {{{
 set tabstop=4           " 4 space tab
