@@ -8,6 +8,7 @@
 ## Configure Zsh and Vim
 * `ln -s ./Configuration/.zshrc .zshrc`
 * `ln -s ./Configuration/.vimrc .vimrc`
+* `ln -s ./Configuration/.tmux.conf .tmux.conf`
 
 ## Installation
 
