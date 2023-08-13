@@ -138,3 +138,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# 1password
+source /Users/jeremysong/.config/op/plugins.sh
+
