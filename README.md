@@ -13,12 +13,17 @@
 ## Installation
 
 ### Amazon JDK
-Download Amazon JDK [here](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
+Download Amazon JDK [here](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html).
 
-### Anaconda
-Download Anaconda [here](https://www.anaconda.com/products/individual)
+Or Homebrew `brew install --cask corretto`.
+
+### Miniconda 
+Download Miniconda [here](https://docs.conda.io/en/main/miniconda.html#installing).
+
+Or Homebrew: `brew install --cask miniconda`
 
 ### Multipass with SSH
+1. Install Multipass: `brew install --cask multipass`.
 1. Create new SSH key.
     ```
     ssh-keygen -C ubuntu -f multipass-ssh-key
