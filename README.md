@@ -17,29 +17,14 @@ Download Amazon JDK [here](https://docs.aws.amazon.com/corretto/latest/corretto-
 
 Or Homebrew `brew install --cask corretto`.
 
-### Miniconda 
+### Miniconda
 Download Miniconda [here](https://docs.conda.io/en/main/miniconda.html#installing).
 
 Or Homebrew: `brew install --cask miniconda`
 
-### Multipass with SSH
-1. Install Multipass: `brew install --cask multipass`.
-1. Create new SSH key.
-    ```
-    ssh-keygen -C ubuntu -f multipass-ssh-key
-    ```
-1. Replace `ssh_authorized_keys` with public key in `cloud-init.yaml` file.
-1. Launch new multipass instance.
-    ```
-    multipass launch -n ubuntu-ssh --cloud-init cloud-init.yaml
-    ```
-1. Update `~/.ssh/config` file.
-    ```
-    Host <IP Address>
-    HostName <IP Address>
-    User ubuntu
-    IdentityFile <Path of private SSH key>
-    ```
+### SSH without Password
+1. Generate a new key with `ssh-keygen`
+1. Copy the public key to remote-host `ssh-copy-id -i ~/.ssh/id_rsa.pub remote-host`
 
 ### Other
 `brew install fortune cowsay lolcat`
