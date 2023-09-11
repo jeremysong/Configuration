@@ -103,6 +103,9 @@ export PATH=$PATH:/Library/TeX/texbin
 # .NET
 export PATH=$PATH:/usr/local/share/dotnet
 
+# Postgresql
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+
 #Function
 function cd() {
   builtin cd "$@"
