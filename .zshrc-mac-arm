@@ -106,6 +106,9 @@ export PATH=$PATH:/usr/local/share/dotnet
 # Postgresql
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
+# Docker
+export PATH="$HOME/.docker/bin:$PATH"
+
 #Function
 function cd() {
   builtin cd "$@"
