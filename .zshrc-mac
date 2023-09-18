@@ -86,7 +86,7 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export PATH="/Users/$USER/.toolbox/bin:$PATH"
 export PATH="/Users/$USER/.cargo/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
