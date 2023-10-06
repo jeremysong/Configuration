@@ -52,9 +52,6 @@ alias eh="expand-hostclass"
 alias rebase="git rebase HEAD~2 -i"
 alias sql_rws="/apollo/env/envImprovement/bin/sqlplus yanson_admin@trws1na"
 
-# Connect to DevDesktop via GUI
-alias dcv="python3 dcv/dcv-cdd.py connect yanson.aka.corp.amazon.com"
-  
 # Function
 function cd() {
   builtin cd "$@"
