@@ -51,8 +51,11 @@ alias idea="/apollo/env/Intellij-15/bin/launch-idea 2>/dev/null &"
 alias eh="expand-hostclass"
 alias rebase="git rebase HEAD~2 -i"
 alias sql_rws="/apollo/env/envImprovement/bin/sqlplus yanson_admin@trws1na"
+
+# Connect to DevDesktop via GUI
+alias dcv="python3 dcv/dcv-cdd.py connect yanson.aka.corp.amazon.com"
   
-#Function
+# Function
 function cd() {
   builtin cd "$@"
   clear
@@ -63,11 +66,11 @@ function tputil() {
   sshenv "TP-UTIL-EC2-BASE/$1"
 }
   
-#Export
+# Export
 export GIT_SSH=/usr/bin/ssh
 export BRAZIL_WORKSPACE_GITMODE=1
 
-#Toolbox
+# Toolbox
 export PATH=$HOME/.toolbox/bin:$PATH
 
 # >>> conda initialize >>>
