@@ -123,13 +123,15 @@ alias bbra='bbr apollo-pkg'
 alias gitm='git commit --amend --no-edit'
 
 alias python='python3'
-alias vim='nvim'
 
 # Start containerized cloud-desktop
 alias start-cloud-desktop='cloud-desktop start -p 8888 -u -m ~/workplace:/workspace:cached -m ~/brazil-pkg-cache:/home/yanson/brazil-pkg-cache:cached'
 
 alias yanson='ssh yanson@yanson.aka.corp.amazon.com'
 alias ll='ls -lh'
+
+# Homebrew
+eval $(/opt/homebrew/bin/brew shellenv)
 
 # Connect to DevDesktop via GUI
 alias dcv="python3 dcv/dcv-cdd.py connect yanson.aka.corp.amazon.com"

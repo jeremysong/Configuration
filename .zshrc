@@ -1,11 +1,11 @@
 osname=`uname`
-arch=`uname -p`
+username=`id -un`
 if [[ "$osname" == 'Darwin' ]]; then
     # Fix this after Homebrew officially supports ARM-based Mac
-    if [[ "$arch" == 'arm' ]]; then
-        source /Users/$USER/Configuration/.zshrc-mac-arm
+    if [[ "$username" == 'yanson' ]]; then
+        source /Users/$USER/Configuration/.zshrc-mac-work
     else
-        source /Users/$USER/Configuration/.zshrc-mac
+        source /Users/$USER/Configuration/.zshrc-mac-home
     fi
 else
     source /home/$USER/Configuration/.zshrc-rhel
