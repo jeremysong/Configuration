@@ -4,6 +4,7 @@
 * [Powerline Theme](https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
 * [Powerline Fonts](https://github.com/powerline/fonts): Cloning the git repo and building it directly should be sufficient. [Reference](https://github.com/powerline/fonts#quick-installation)
 * [Homebrew](http://brew.sh/)
+* [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 ## Configure Zsh and Vim
 * `ln -s ./Configuration/.zshrc .zshrc`
@@ -25,11 +26,6 @@ Or Homebrew: `brew install --cask miniconda`
 ### SSH without Password
 1. Generate a new key with `ssh-keygen`
 1. Copy the public key to remote-host `ssh-copy-id -i ~/.ssh/id_rsa.pub remote-host`
-
-### NeoVim
-1. `brew install nvim`
-1. [NvChad](https://nvchad.com/docs/quickstart/install)
-1. [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 ### Other
 `brew install fortune cowsay lolcat`
