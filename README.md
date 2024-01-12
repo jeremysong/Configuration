@@ -32,3 +32,6 @@ Or Homebrew: `brew install --cask miniconda`
 * `brew install --cask visual-studio-code`
 * `brew install --cask jetbrains-toolbox`
 * `brew install --cask rectangle`
+* `brew install --cask 1password`
+* `brew install --cask brave-browser`
+* `brew install --cask github`
