@@ -28,4 +28,7 @@ Or Homebrew: `brew install --cask miniconda`
 1. Copy the public key to remote-host `ssh-copy-id -i ~/.ssh/id_rsa.pub remote-host`
 
 ### Other
-`brew install fortune cowsay lolcat`
+* `brew install fortune cowsay lolcat`
+* `brew install --cask visual-studio-code`
+* `brew install --cask jetbrains-toolbox`
+* `brew install --cask rectangle`
