@@ -10,7 +10,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0
   },
-  "Rows" : 50,
+  "Rows" : 60,
   "Ansi 11 Color" : {
     "Red Component" : 0.9259033203125,
     "Color Space" : "sRGB",
@@ -350,7 +350,7 @@
     "Color Space" : "sRGB",
     "Blue Component" : 0.11764705926179886,
     "Alpha Component" : 1,
-    "Green Component" : 0.098039217293262482
+    "Green Component" : 0.098039217293262454
   },
   "AWDS Pane Directory" : "",
   "Blur" : true,
@@ -408,7 +408,7 @@
     "Green Component" : 0.4927266538143158
   },
   "Use Tab Color" : false,
-  "Columns" : 160,
+  "Columns" : 140,
   "Visual Bell" : true,
   "ASCII Ligatures" : false,
   "Ansi 5 Color" : {
@@ -429,7 +429,7 @@
     "Blue Component" : 0.63137254901960782,
     "Green Component" : 0.63137254901960782
   },
-  "Rows" : 50,
+  "Rows" : 60,
   "Ansi 11 Color" : {
     "Red Component" : 0.396078431372549,
     "Color Space" : "sRGB",
@@ -806,7 +806,7 @@
     "Green Component" : 0.44313725490196076
   },
   "Use Tab Color" : false,
-  "Columns" : 160,
+  "Columns" : 140,
   "Visual Bell" : true,
   "ASCII Ligatures" : false,
   "Ansi 5 Color" : {
