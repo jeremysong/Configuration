@@ -16,3 +16,5 @@ brew install --cask github
 brew install fortune cowsay lolcat
 brew install apache-spark
 brew install stats
+brew install --cask notion
+brew install nvim
