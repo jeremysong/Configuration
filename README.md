@@ -23,6 +23,11 @@ Download Miniconda [here](https://docs.conda.io/en/main/miniconda.html#installin
 
 Or Homebrew: `brew install --cask miniconda`
 
+### NeoVim
+1. `brew install nvim`
+1. [NvChad](https://nvchad.com/docs/quickstart/install)
+1. [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+
 ### SSH without Password
 1. Generate a new key with `ssh-keygen`
 1. Copy the public key to remote-host `ssh-copy-id -i ~/.ssh/id_rsa.pub remote-host`
