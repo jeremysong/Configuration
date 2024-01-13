@@ -345,6 +345,7 @@
   "Smart Cursor Color" : false,
   "Ambiguous Double Width" : false,
   "Blur Radius" : 7.5102038388324859,
+  "Cursor Type" : 0,
   "Ansi 0 Color" : {
     "Red Component" : 0.078431375324726105,
     "Color Space" : "sRGB",
@@ -354,7 +355,7 @@
   },
   "AWDS Pane Directory" : "",
   "Blur" : true,
-  "Normal Font" : "DejaVuSansMonoPowerline 15",
+  "Normal Font" : "DejaVuSansMonoPowerline 14",
   "Vertical Spacing" : 1,
   "Ansi 7 Color" : {
     "Red Component" : 0.7810397744178772,
@@ -748,6 +749,7 @@
   "Smart Cursor Color" : false,
   "Ambiguous Double Width" : false,
   "Blur Radius" : 7.5102038388324859,
+  "Cursor Type" : 0,
   "Ansi 0 Color" : {
     "Red Component" : 0.027450980392156866,
     "Color Space" : "sRGB",
@@ -757,7 +759,7 @@
   "AWDS Pane Directory" : "",
   "Blur" : true,
   "Vertical Spacing" : 1,
-  "Normal Font" : "DejaVuSansMonoPowerline 15",
+  "Normal Font" : "DejaVuSansMonoPowerline 14",
   "Ansi 7 Color" : {
     "Red Component" : 0.93333333333333335,
     "Color Space" : "sRGB",
