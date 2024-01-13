@@ -42,4 +42,4 @@ Or Homebrew: `brew install --cask miniconda`
 * `brew install --cask github`
 * `brew install apache-spark`
 * `brew install stats`
-* `brew install --cask notion`
+* `brew install dafny`
