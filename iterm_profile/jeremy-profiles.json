@@ -56,6 +56,7 @@
     "telnet"
   ],
   "Scrollback Lines" : 0,
+  "Draw Powerline Glyphs" : true,
   "Brighten Bold Text" : true,
   "Flashing Bell" : false,
   "Cursor Guide Color" : {
@@ -319,7 +320,7 @@
   },
   "Name" : "Jeremy(home)",
   "Blinking Cursor" : false,
-  "Guid" : "F125701D-F619-40DC-A542-B45A7A3FF16E",
+  "Guid" : "24D85EDE-581D-4719-B037-864025D8B028",
   "Idle Code" : 0,
   "Ansi 10 Color" : {
     "Red Component" : 0.3450070321559906,
@@ -472,6 +473,7 @@
     "telnet"
   ],
   "Scrollback Lines" : 0,
+  "Draw Powerline Glyphs" : true,
   "Brighten Bold Text" : true,
   "Flashing Bell" : false,
   "Cursor Guide Color" : {
@@ -725,7 +727,7 @@
   },
   "Name" : "Jeremy(work)",
   "Blinking Cursor" : false,
-  "Guid" : "3CA683C7-B205-412F-A7DA-FF7AF1C80EC9",
+  "Guid" : "D644E471-A1DE-4186-89D4-70EFE6287B5B",
   "Idle Code" : 0,
   "Ansi 10 Color" : {
     "Red Component" : 0.34509803921568627,
@@ -759,7 +761,7 @@
   "AWDS Pane Directory" : "",
   "Blur" : true,
   "Vertical Spacing" : 1,
-  "Normal Font" : "DejaVuSansMonoPowerline 15",
+  "Normal Font" : "JetBrainsMonoNF-Regular 15",
   "Ansi 7 Color" : {
     "Red Component" : 0.93333333333333335,
     "Color Space" : "sRGB",
