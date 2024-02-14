@@ -122,6 +122,9 @@ alias bbra='bbr apollo-pkg'
 # git
 alias gitm='git commit --amend --no-edit'
 
+# Protobuf
+PATH="/opt/homebrew/opt/protobuf@21/bin:$PATH"
+
 alias python='python3'
 
 # Start containerized cloud-desktop
